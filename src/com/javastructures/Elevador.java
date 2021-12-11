@@ -1,5 +1,6 @@
 package com.javastructures;
-public class Elevador {
+
+public class Elevador{
 	Elevador e = new Elevador();
 	
 final int maxFloor = 10;

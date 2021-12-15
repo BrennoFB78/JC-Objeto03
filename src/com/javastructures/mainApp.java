@@ -10,7 +10,7 @@ public class mainApp {
 		for(int i = 0; i < NPassageiro; i++) {
 			passageirosInseridos++;
 			new Passageiro("Passageiro " + passageirosInseridos, (int)Math.floor(Math.random()*(predio.elevador.maxFloor-predio.elevador.minFloor+1)+
-					predio.elevador.minFloor), predio.elevador.sp, predio.elevador);
+					predio.elevador.minFloor), predio.elevador);
 		}
 	}
 }

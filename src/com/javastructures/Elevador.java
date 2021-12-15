@@ -3,12 +3,11 @@ package com.javastructures;
 import java.util.concurrent.Semaphore;
 
 public class Elevador extends Thread{
-	Elevador e = new Elevador();
-	
 final int maxFloor = 10;
 final int minFloor = 1; 
 int curFloor = 1;
 int desFloor = 0;
+Boolean lotado = false;
 
 Semaphore sp = new Semaphore(1);
 
